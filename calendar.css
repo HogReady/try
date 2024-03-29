@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/*NAKA COLUMN NA NAV LINKS AT LOGO*/
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 20px;
+    min-height: 100vh;
+}
+.column h1 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+nav ul {
+    list-style: none;
+    padding: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+nav ul li a.active {
+    border-bottom: 1px solid black;
+}
+nav ul li {
+    padding: 10px;
+}
+
+.row_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 0 0 50px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+    border: 1px solid black;
+    padding: 10px 0 10px 15px;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    gap: 10px;
+}
+.searchbox a i {
+    color: black;
+}
+.searchbox input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 500px;
+}
+.searchbox input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.icons_top{
+    margin-left: 20px;
+}
+.icons_top a{
+    margin-right: 10px;
+}
+.icons_top a i{
+    color: black;
+}
+
+.content{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 200px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    margin-top: 35px;
+    font-family: "Fredoka", sans-serif;
+}
+
+/* CALENDAR */
+.calendar{
+    font-family: "Fredoka", sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+}
+.calender-container{
+    border: 1px solid black;
+    width: 450px;
+    border-radius: 5px;
+}
+.today_date{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+    padding: 15px;
+}
